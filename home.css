@@ -3,14 +3,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252a;
+    background-color: white;
 }
 
 li, a, button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: white;
+    color: #4B0082;
     text-decoration: none;
 }
 
@@ -42,36 +42,51 @@ header {
     transition: all 0.3s ease 0s;
 }
 
-.navLinks li a.hover {
-    color: white;
+.navLinks li a:hover {
+    color:rgba(48, 213, 200, 0.8);
 }
 
 button {
+    color: white;
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgb(248, 176, 82);
+    background-color: #4B0082;
     border: none;
+    outline: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
 button:hover {
-    background-color: rgba(233, 83, 253, 0.8);
+    background-color: rgba(48, 213, 200, 0.8);	
 }
 
-
-#note {
+.note {
+    padding: 30px 10%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
+}
+input {
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    outline: none;
     height: 40px;
-    width: 80%;
+    width: 75%;
     margin-top: 550px;
-    background-color: white;
+    background-color: #4B0082;
     border: gray;
     border-radius: 10px;
     margin: auto;
-    box-shadow: 20px 20px 47px 3px rgba(0,0,0,0.80);
+    box-shadow: 20px 20px 47px 3px rgba(0,0,0,0.60);
 }
+
+.note ::placeholder {
+    color: white;
+}
+
