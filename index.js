@@ -1,4 +1,4 @@
-window.onload = function(){
+window.onload = function() {
 
     console.log = 'this works'
     //give open text form
